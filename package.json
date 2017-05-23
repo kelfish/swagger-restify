@@ -17,8 +17,7 @@
     "jshint": "*"
   },
   "scripts": {
-    "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')",
-    "postinstall": "bower install"
+    "test": "jshint --config jshint.cfg $(find . -name *.js | grep -v './node_modules')"
   },
   "keywords": [
     "swagger",
